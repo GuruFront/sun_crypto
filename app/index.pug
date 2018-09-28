@@ -5,6 +5,8 @@ head
     meta(name="viewport" content="width=device-width, initial-scale=1")
     title Document
     link( rel="stylesheet" href="css/main.css")
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
 body
 
     section.main
@@ -17,11 +19,11 @@ body
                             img(src='img/logo.png' alt='logo')
                     .col
                         nav.main-menu
-                            ul.main-menu__list
+                            ul.main-menu__list.scroll
                                 li.main-menu__list-item
-                                    a(href='#') КОМАНДА
+                                    a(href='#team') КОМАНДА
                                 li.main-menu__list-item
-                                    a(href='#') ПОЧЕМУ ВЫБИРАЮТ НАС
+                                    a(href='#why') ПОЧЕМУ ВЫБИРАЮТ НАС
         .container
             .row
                 .col-md-8.col-lg-6
@@ -48,6 +50,262 @@ body
                 li
                     img(src='img/yo bit net.png')
 
+
+
+    section.advantages#why
+        .container
+            .row.advantages__wrap
+                .col-md-6
+                    .advantages__item
+                        .advantages__icon
+                            img(src='img/icon-advantage_1.png')
+                        .advantages__content
+                            p.advantages__title
+                                b 15 лет на рынке
+                            p.advantages__text.
+                                Большой опыт работы на классическом рынке дал нам возможность своевременного и динамичного развития в области криптоавлюты
+                .col-md-6
+                    .advantages__item
+                        .advantages__icon
+                            img(src='img/icon-advantage_2.png')
+                        .advantages__content
+                            p.advantages__title
+                                b Выгодные условия
+                            p.advantages__text.
+                                Имея прямые контакты с биржами, мы предоставляем нашим клиентам специальные условия
+                .col-md-6
+                    .advantages__item
+                        .advantages__icon
+                            img(src='img/icon-advantage_3.png')
+                        .advantages__content
+                            p.advantages__title
+                                b Индивидуальный подход
+                            p.advantages__text.
+                                В основе нашей идеологии лежит индивидуальный подход к каждому клиенту, передовые идеи и самые актуальные инвестиции
+                .col-md-6
+                    .advantages__item
+                        .advantages__icon
+                            img(src='img/icon-advantage_4.png')
+                        .advantages__content
+                            p.advantages__title
+                                b Качественный анализ
+                            p.advantages__text.
+                                Мы применяем лучшие торговые стратегии,
+                                это позволяет нам достигать успеха в решении задач любой степени сложности
+
+
+
+
+    .rectangle-bg
+        section.service
+            .container
+                .row
+                    .col-md-6.col-lg-3
+                        .service__item.service__item_1
+                            p.service__title Listing
+                            p.service__text Предоставляем возможность пакетного размещения токена на биржах Tier 1-2-3 на специальных условиях
+                    .col-md-6.col-lg-3
+                        .service__item.service__item_2
+                            p.service__title Market Making
+                            p.service__text Предоставляем возможность пакетного размещения токена на биржах Tier 1-2-3 на специальных условиях
+                    .col-md-6.col-lg-6
+                        .service__item.service__item_3
+                            p.service__title Доверительное управление
+                            p.service__text Предоставляем возможность пакетного размещения токена на биржах Tier 1-2-3 на специальных условиях
+                    .col-md-6.col-lg-3
+                        .service__item.service__item_4
+                            p.service__title Брокерские услуги
+                            p.service__text Предоставляем возможность пакетного размещения токена на биржах Tier 1-2-3 на специальных условиях
+                    .col-md-6.col-lg-3
+                        .service__item.service__item_5
+                            p.service__title Мастер Ноды
+                            p.service__text Предоставляем возможность пакетного размещения токена на биржах Tier 1-2-3 на специальных условиях
+                    .col-md-6.col-lg-3
+                        .service__item.service__item_6
+                            p.service__title Поддержка ICO
+                            p.service__text Предоставляем возможность пакетного размещения токена на биржах Tier 1-2-3 на специальных условиях
+                    .col-md-6.col-lg-3
+                        .service__item.service__item_7
+                            p.service__title Блокчейн под ключ
+                            p.service__text Предоставляем возможность пакетного размещения токена на биржах Tier 1-2-3 на специальных условиях
+                    .col-md-6.col-lg-6
+                        .service__item.service__item_8
+                            p.service__title Юридическое сопровождение
+                            p.service__text Предоставляем возможность пакетного размещения токена на биржах Tier 1-2-3 на специальных условиях
+                    .col-lg-6
+                        .service__item.service__item_9
+                            p.service__title Криптоконсалтинг
+                            p.service__text Предоставляем возможность пакетного размещения токена на биржах Tier 1-2-3 на специальных условиях
+        section.contacts#team
+            .container
+                .row
+                    .col-sm-6.col-lg-3
+                        .contacts__item
+                            .contacts__photo
+                                img(src='img/egor.png')
+                            p.contacts__name Егор Виноградов
+                            p.contacts__text
+                                b CEO
+                                |, финансист. Образование: Бостонский Boston University, МГУ, МГИМО.
+                                |Рекордсмен мира по триатлону в AG.
+                            ul.contacts__links
+                                li
+                                    a(href="#").telegram
+                                        <i class="fab fa-telegram-plane"></i>
+                                li
+                                    a(href="#").in
+                                        <i class="fab fa-linkedin-in"></i>
+                    .col-sm-6.col-lg-3
+                        .contacts__item
+                            .contacts__photo
+                                img(src='img/roman.png')
+                            p.contacts__name Роман Малисов
+
+                            p.contacts__text
+                                b Управляющий партнер
+                                |, адвокат в сфере Blockchain, Закончил МГУ Юридического факультета
+                                |МГИ МЦ геополитика
+                            ul.contacts__links
+                                li
+                                    a(href="#").telegram
+                                        <i class="fab fa-telegram-plane"></i>
+                                li
+                                    a(href="#").fb
+                                        <i class="fab fa-facebook-f"></i>
+
+                    .col-sm-6.col-lg-3
+                        .contacts__item
+                            .contacts__photo
+                                img(src='img/alexey.png')
+                            p.contacts__name Алексей Ермоленко
+
+                            p.contacts__text
+                                b Партнер
+                                |, эксперт в области блокчейн проектов и криптобирж.
+                                |Выпускник МГТУ им.Баумана и МГУ
+
+
+                            ul.contacts__links
+                                li
+                                    a(href="#").telegram
+                                        <i class="fab fa-telegram-plane"></i>
+                                li
+                                    a(href="#").in
+                                        <i class="fab fa-linkedin-in"></i>
+                    .col-sm-6.col-lg-3
+                        .contacts__item
+                            .contacts__photo
+                                img(src='img/andrey.jpg')
+                            p.contacts__name Андрей Буркин
+                            p.contacts__text
+                                b Работа с клиентами
+                            ul.contacts__links
+                                li
+                                    a(href="#").telegram
+                                        <i class="fab fa-telegram-plane"></i>
+                                li
+                                    a(href="#").in
+                                        <i class="fab fa-linkedin-in"></i>
+
+                    .col-sm-6.col-lg-3
+                        .contacts__item
+                            .contacts__photo
+                                img(src='img/kate.png')
+                            p.contacts__name Екатерина Затеева
+
+                            p.contacts__text
+                                b Внешние коммуникации
+                                |, эксперт IR GR Северо-Западная Академия государственной службы при Президенте РФ
+                                | ВШЭ
+                            ul.contacts__links
+                                li
+                                    a(href="#").telegram
+                                        <i class="fab fa-telegram-plane"></i>
+                                li
+                                    a(href="#").fb
+                                        <i class="fab fa-facebook-f"></i>
+                                li
+                                    a(href="#").in
+                                        <i class="fab fa-linkedin-in"></i>
+                    .col-sm-6.col-lg-3
+                        .contacts__item
+                            .contacts__photo
+                                img(src='img/nik.png')
+                            p.contacts__name Никита Заславский
+                            p.contacts__text
+                                b Маркетмейкинг
+                                |, трейдинг, специалист крипто трединга и майнинга. Эксперт в сфере блокчейн и инноваций
+                                | МГУ
+
+
+                            ul.contacts__links
+                                li
+                                    a(href="#").telegram
+                                        <i class="fab fa-telegram-plane"></i>
+                                li
+                                    a(href="#").in
+                                        <i class="fab fa-linkedin-in"></i>
+                    .col-sm-6.col-lg-3
+                        .contacts__item
+                            .contacts__photo
+                                img(src='img/den.png')
+                            p.contacts__name Денис Кузиков
+                            p.contacts__text
+                                b Web-разработка
+                                |, эксперт в области цифровой экономики.
+                                |Закончил Российский Экономический Университет им.Плеханова.
+                            ul.contacts__links
+                                li
+                                    a(href="#").telegram
+                                        <i class="fab fa-telegram-plane"></i>
+                                li
+                                    a(href="#").fb
+                                        <i class="fab fa-facebook-f"></i>
+                    .col-sm-6.col-lg-3
+                        .contacts__item
+                            .contacts__photo
+                                img(src='img/polina.png')
+                            p.contacts__name Полина Огнева
+                            p.contacts__text
+                                b Внутренний менеджмент
+                                |, Государственный университет Министерства финансов Российской Федерации
+                            ul.contacts__links
+                                li
+                                    a(href="#").telegram
+                                        <i class="fab fa-telegram-plane"></i>
+                                li
+                                    a(href="#").fb
+                                        <i class="fab fa-facebook-f"></i>
+                                li
+                                    a(href="#").in
+                                        <i class="fab fa-linkedin-in"></i>
+
+    .map
+        .container.map__wrap
+            .row
+                .col-12
+                    p.map-title
+                        |г. Москва
+                        br
+                        |ул. Библиотечная 62А
+                        br
+                        |офис 234
+            footer.row.footer
+                .col-sm-4
+                    p 2018 © SunCrupto
+                .col-sm-4
+                    ul.contacts__links
+                        li
+                            a(href="#")
+                                <i class="fab fa-telegram-plane"></i>
+                        li
+                            a(href="#")
+                                <i class="fab fa-facebook-f"></i>
+                        li
+                            a(href="#")
+                                <i class="fab fa-youtube"></i>
+                .col-sm-4.policy
+                    a(href='#') Политика конфиденциальности
 
 
     script( src="js/main.min.js" )
